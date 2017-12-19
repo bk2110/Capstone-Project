@@ -1,0 +1,155 @@
+html {
+	font-size: 18px;
+}
+
+ul li {
+	list-style: none;
+}
+
+.page {
+	background-color: #00cccc;
+}
+
+body {
+	margin: 0;
+}
+
+nav {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	align-items: center;
+	height: 64px;
+	background-color: #ccebff;
+	margin-top: auto;
+}
+
+nav a {
+	color: #330000;
+	text-decoration: none;
+	margin-left: 1.3rem;
+	font-family: 'BioRhyme', serif;
+}
+
+nav h2 {
+	margin-right: auto;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 1.3rem;
+}
+
+#logo {
+	margin-left: 1.3rem;
+	margin-right: 0.3rem;
+}
+
+h2 span {
+	opacity: 0.5;
+}
+
+.section2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #606060;
+	width: 70%;
+	height: 30rem;
+	margin: auto;
+}
+
+.image #banner-image {
+	margin: 1.8rem 3.0rem;
+	width: 70%;
+	height: 70%;
+}
+
+.banner {
+	margin-right: 5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 75%;
+	width: 50%;
+	color: white;
+	font-family: 'Bungee Shade', cursive;
+	margin-top: 0;
+	font-size: 0.8rem;
+}
+
+.banner button {
+	padding-top: 0.8rem;
+	padding-bottom: 0.8rem;
+	padding-left: 5.8rem;
+	padding-right: 5.8rem;
+	background-color: white;
+	color: black;
+	font-size: 0.6rem
+	font-weight: bold;
+}
+
+.banner button:hover {
+	background-color: black;
+	color: white;
+}
+
+.banner button:active {
+	background-color: green;
+}
+
+.banner h4 {
+	margin-bottom: 3rem;
+}
+
+.section3 {
+	margin-top: 1.8rem;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	align-items: center;
+	width: 70%;
+	height: 34rem;
+	margin: auto;
+}
+
+.section3 .left {
+	width: 70%;
+	margin-left: 3.0rem;
+}
+
+.left img {
+	margin-bottom: 1.8rem;
+	width: 70%;
+}
+
+.section3 .right {
+	display: block;
+	border: 1px solid black;
+	width: 40%;
+	height: 34rem;
+}
+
+#rectangle {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	height: 33%;
+}
+
+#rectangle img {
+	height: auto;
+	width: 35%;
+}
+
+
+
+
+
+
+
+
