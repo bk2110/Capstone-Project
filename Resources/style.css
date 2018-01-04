@@ -16,6 +16,8 @@ body {
 	margin: 0;
 }
 
+/*Nav Bar Section*/
+
 .section1 {
 	position: fixed;
 	width: 100%;
@@ -58,6 +60,10 @@ nav ul {
 h2 span {
 	opacity: 0.5;
 }
+
+/*End Nav Bar Section*/
+
+
 
 .section2 {
 	display: flex;
@@ -208,7 +214,7 @@ h2 span {
 .section4 {
 	margin: 0 auto;
 	width: 70%;
-	height: 50rem;
+	height: 45rem;
 	margin-bottom: 1.8rem;
 	background-color: #ccebff;
 	padding-left: 4rem;
@@ -364,6 +370,21 @@ footer p {
 }
 
 
+/*Media Query Section*/
+
+@media only screen and (max-width: 480px) {
+
+	/*Need to add the HTML for the mobile version and set the values to display:none; in the section above. Do the reverse and set the display:none; for elements in the media query section that are not in the mobile version*/
+
+
+
+
+
+
+
+
+
+/*End Media Query Section*/
 
 
 
